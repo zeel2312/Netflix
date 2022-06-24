@@ -23,7 +23,7 @@ class CreateVideouploaderTable extends Migration
             $table->string('cast');
             $table->string('director');
             $table->Integer('year')->length(4);
-            $table->string('description');
+            $table->longText('description');
             $table->tinyInteger('is_active')->default(1);
             $table->tinyInteger('is_delete')->default(0);
             $table->timestamps();

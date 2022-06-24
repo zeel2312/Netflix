@@ -48,7 +48,7 @@
                                         <td>{{ $vuv->director }}</td>
                                         <td>{{ $vuv->year }}</td>
                                         <td>{{ $vuv->video }}</td>
-                                        <td>{{ $vuv->description }}</td>
+                                        <td style="width: 30% !important;">{{ $vuv->description }}</td>
                                         <td><a class="btn btn-info" href="{{ route('admin.editVideo', $vuv->id)  }}" >Edit</a>&nbsp;
                                             <a class="btn btn-danger" href="{{ route('admin.deleteVideo', $vuv->id)  }}" onclick="return confirm('Are you sure want to delete this Video?')">Delete</a>
                                         </td>

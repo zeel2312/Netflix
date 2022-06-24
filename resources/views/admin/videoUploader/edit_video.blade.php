@@ -85,7 +85,7 @@
                             <div class="item form-group">
                                 <label class="col-form-label col-md-3 col-sm-3 label-align unique" for="Description">Description* </label>
                                 <div class="col-md-6 col-sm-6 ">
-                                    <input type="text" id="description" name="description" class="form-control" value="{{ $videouploader->description }}" placeholder="Enter Description" required=" ">
+                                    <textarea id="description" name="description" class="form-control" placeholder="Enter Description" required=" " rows="5" cols="3">{{ $videouploader->description }}</textarea>
                                 </div>
                             </div>
 
